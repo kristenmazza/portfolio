@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react';
 import styles from './Header.module.css';
 
 export default function Header() {
-  const [navStyle, setNavStyle] = useState(false);
+  const [navBorder, setNavBorder] = useState(false);
 
   const listenScrollEvent = () => {
-    window.scrollY > 10 ? setNavStyle(true) : setNavStyle(false);
+    window.scrollY > 10 ? setNavBorder(true) : setNavBorder(false);
   };
 
   useEffect(() => {
@@ -17,26 +17,28 @@ export default function Header() {
 
   return (
     <>
-      <nav className={styles.navbar}>
-        <div className={styles.navbarContainer}>
-          <div className={styles.logo}>
-            <img src='/images/km-logo.svg' />
+      <header>
+        <nav className={styles.navbar}>
+          <div className={styles.navbarContainer}>
+            <div className={styles.logo}>
+              <img src='/images/km-logo.svg' />
+            </div>
+            <ul className={styles.navbarList}>
+              <li>
+                <a href='#'>About</a>
+              </li>
+              <li className={styles.projects}>
+                <a href='#'>Projects</a>
+              </li>
+              <li className={styles.contact}>
+                <a href='#'>Contact</a>
+              </li>
+            </ul>
           </div>
-          <ul className={styles.navbarList}>
-            <li>
-              <a href='#'>About</a>
-            </li>
-            <li className={styles.projects}>
-              <a href='#'>Projects</a>
-            </li>
-            <li className={styles.contact}>
-              <a href='#'>Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        </nav>
+      </header>
       <div
-        className={`${styles.border} ${navStyle ? styles.active : ''}`}
+        className={`${styles.border} ${navBorder ? styles.activeBorder : ''}`}
       ></div>
     </>
   );
