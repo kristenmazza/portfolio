@@ -1,0 +1,117 @@
+.about {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 75px;
+  background-color: rgb(116, 127, 224);
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  gap: 10px;
+  color: rgb(250, 250, 250);
+}
+
+.aboutContainer > h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.aboutContainer > p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.skillsContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: rgb(250, 250, 250);
+  max-width: 500px;
+  color: rgb(21, 21, 21);
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow:
+    rgba(116, 127, 224, 0.3) 0px 1px 2px 0px,
+    rgba(116, 127, 224, 0.15) 0px 1px 3px 1px;
+}
+
+.skillsHeading > h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.skillsGroup {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.iconGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconGroup > span {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+.iconGroup > img {
+  height: 40px;
+  width: auto;
+}
+
+.divider {
+  border-bottom: 1px solid #fff;
+  background-color: #dadada;
+  height: 1px;
+  margin: 0.5em 0px 1.5em;
+}
+
+.divider span {
+  display: block;
+  width: 50px;
+  height: 1px;
+  background-color: rgb(116, 127, 224);
+}
+
+@media (min-width: 600px) {
+  .aboutContainer {
+    max-width: 900px;
+    line-height: 1.5;
+    padding: 60px;
+  }
+
+  .border {
+    margin-top: 5rem;
+  }
+
+  .skills {
+    max-width: 700px;
+    padding: 30px 50px;
+  }
+
+  .skillsGroup {
+    gap: 30px;
+  }
+
+  .iconGroup > img {
+    height: 60px;
+    width: auto;
+  }
+}

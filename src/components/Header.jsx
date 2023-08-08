@@ -25,7 +25,7 @@ export default function Header() {
             </div>
             <ul className={styles.navbarList}>
               <li>
-                <a href='#'>About</a>
+                <a href='#about'>About</a>
               </li>
               <li className={styles.projects}>
                 <a href='#'>Projects</a>
