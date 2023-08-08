@@ -1,0 +1,22 @@
+#root {
+  font-family:
+    Roboto,
+    Work Sans,
+    Segoe U;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 200vh;
+  background-color: #fdfdfd;
+}

@@ -1,0 +1,86 @@
+.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+  padding: 0 60px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 300;
+  justify-content: center;
+}
+
+.navbarContainer {
+  display: flex;
+  flex: 1;
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarList {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+
+.navbarList > li > a {
+  text-decoration: none;
+  color: #121212;
+}
+
+.navbarList > li > a:hover {
+  text-underline-offset: 5px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: #121212;
+}
+
+.border {
+  position: fixed;
+  height: 1px;
+  width: 100%;
+  margin-top: 5rem;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.active {
+  transition: all 1.5s;
+  background-color: rgb(116, 116, 116);
+  opacity: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.logo > img {
+  height: 50px;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+
+  .navbarList {
+    flex: 1;
+    margin-right: auto;
+  }
+
+  .navbarList > li {
+    margin-right: auto;
+    display: flex;
+  }
+
+  .projects {
+    flex: 1;
+    justify-content: center;
+  }
+}
