@@ -1,8 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 #root {
-  font-family:
-    Roboto,
-    Work Sans,
-    Segoe U;
+  font-family: Inter, Roboto, Helvetica;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +16,6 @@
 }
 
 body {
-  height: 200vh;
+  height: 100vh;
   background-color: #fdfdfd;
 }
