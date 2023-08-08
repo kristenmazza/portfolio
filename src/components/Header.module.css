@@ -63,7 +63,7 @@
 .navbarList {
   display: flex;
   list-style: none;
-  gap: 3rem;
+  gap: 1rem;
   flex: 1;
 }
 
@@ -88,6 +88,7 @@
 
   .navbarList {
     flex: 0;
+    gap: 3rem;
   }
 
   .navbarContainer {
