@@ -2,10 +2,11 @@ import { useState, useEffect } from 'react';
 import styles from './Header.module.css';
 
 export default function Header() {
-  const [navBorder, setNavBorder] = useState(false);
+  //   const [navBorder, setNavBorder] = useState(false);
+  const [navResize, setNavResize] = useState(false);
 
   const listenScrollEvent = () => {
-    window.scrollY > 10 ? setNavBorder(true) : setNavBorder(false);
+    window.scrollY > 10 ? setNavResize(true) : setNavResize(false);
   };
 
   useEffect(() => {
@@ -18,10 +19,19 @@ export default function Header() {
   return (
     <>
       <header>
-        <nav className={styles.navbar}>
+        <nav
+          className={`${styles.navbar} ${
+            navResize ? styles.activeHeaderResize : ''
+          }`}
+        >
           <div className={styles.navbarContainer}>
             <div className={styles.logo}>
-              <img src='/images/km-logo.svg' />
+              <img
+                className={`${styles.logoImg} ${
+                  navResize ? styles.activeLogoResize : ''
+                }`}
+                src='/images/km-logo.svg'
+              />
             </div>
             <ul className={styles.navbarList}>
               <li>
@@ -37,9 +47,9 @@ export default function Header() {
           </div>
         </nav>
       </header>
-      <div
+      {/* <div
         className={`${styles.border} ${navBorder ? styles.activeBorder : ''}`}
-      ></div>
+      ></div> */}
     </>
   );
 }

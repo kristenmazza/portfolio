@@ -11,6 +11,8 @@
   font-size: 20px;
   font-weight: 300;
   background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid gray;
+  transition: all 1s;
 }
 
 .navbarList > li {
@@ -38,13 +40,19 @@
   opacity: 0;
 }
 
+.activeHeaderResize {
+  height: 2rem;
+  transition: all 1s;
+}
+
+/*
 .activeBorder {
   transition: all 1.5s;
   background-color: rgb(116, 116, 116);
   opacity: 1;
-}
+} */
 
-.logo > img {
+.logoImg {
   opacity: 0;
   height: 0px;
   transform: translate(0%, -100%);
@@ -74,7 +82,7 @@
     align-items: center;
   }
 
-  .logo > img {
+  .logoImg {
     height: 50px;
     opacity: 1;
     transition:
@@ -83,9 +91,13 @@
     transform: translate(0%, 0%);
   }
 
-  .navbar {
-    height: 5rem;
+  .activeLogoResize {
+    height: 25px;
   }
+
+  /* .navbar {
+    height: 5rem;
+  } */
 
   .navbarList {
     flex: 0;
@@ -99,7 +111,7 @@
     align-items: center;
   }
 
-  .border {
+  /* .border {
     margin-top: 5rem;
-  }
+  } */
 }
