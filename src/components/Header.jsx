@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import styles from './Header.module.css';
 
 export default function Header() {
-  //   const [navBorder, setNavBorder] = useState(false);
   const [navResize, setNavResize] = useState(false);
 
   const listenScrollEvent = () => {
@@ -25,14 +24,7 @@ export default function Header() {
           }`}
         >
           <div className={styles.navbarContainer}>
-            <div className={styles.logo}>
-              <img
-                className={`${styles.logoImg} ${
-                  navResize ? styles.activeLogoResize : ''
-                }`}
-                src='/images/km-logo.svg'
-              />
-            </div>
+            <div className={styles.logo}>KM</div>
             <ul className={styles.navbarList}>
               <li>
                 <a href='#about'>About</a>
@@ -47,9 +39,6 @@ export default function Header() {
           </div>
         </nav>
       </header>
-      {/* <div
-        className={`${styles.border} ${navBorder ? styles.activeBorder : ''}`}
-      ></div> */}
     </>
   );
 }

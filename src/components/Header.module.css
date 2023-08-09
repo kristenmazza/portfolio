@@ -31,31 +31,13 @@
   text-decoration-color: #121212;
 }
 
-.border {
-  position: fixed;
-  height: 1px;
-  width: 100%;
-  margin-top: 4rem;
-  transition: all 0.5s;
-  opacity: 0;
-}
-
 .activeHeaderResize {
   height: 2rem;
   transition: all 1s;
 }
 
-/*
-.activeBorder {
-  transition: all 1.5s;
-  background-color: rgb(116, 116, 116);
-  opacity: 1;
-} */
-
-.logoImg {
-  opacity: 0;
-  height: 0px;
-  transform: translate(0%, -100%);
+.logo {
+  display: none;
 }
 
 .projects {
@@ -78,26 +60,10 @@
 
 @media (min-width: 600px) {
   .logo {
-    display: flex;
-    align-items: center;
+    display: block;
+    font-size: 25px;
+    font-weight: 600;
   }
-
-  .logoImg {
-    height: 50px;
-    opacity: 1;
-    transition:
-      transform 0.7s ease-out,
-      opacity 0.5s ease;
-    transform: translate(0%, 0%);
-  }
-
-  .activeLogoResize {
-    height: 25px;
-  }
-
-  /* .navbar {
-    height: 5rem;
-  } */
 
   .navbarList {
     flex: 0;
@@ -110,8 +76,4 @@
     justify-content: space-between;
     align-items: center;
   }
-
-  /* .border {
-    margin-top: 5rem;
-  } */
 }
