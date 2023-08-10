@@ -79,6 +79,8 @@
   background-color: rgb(129, 208, 118);
   padding: 22px 20px 18px 20px;
   border-radius: 50%;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .envelope > img {
