@@ -14,6 +14,7 @@ export default function Contact() {
             chat, feel free to reach out via&nbsp;
             <span>
               <a
+                className={styles.link}
                 href='https://www.linkedin.com/in/kristenmazza/'
                 target='_blank'
                 rel='noopener noreferrer'
