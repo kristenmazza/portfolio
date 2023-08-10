@@ -52,6 +52,10 @@
   align-items: center;
 }
 
+.button {
+  cursor: pointer;
+}
+
 .resumeBlock {
   display: flex;
   align-items: center;
