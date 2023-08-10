@@ -30,10 +30,10 @@ export default function Header() {
                 <a href='#about'>About</a>
               </li>
               <li className={styles.projects}>
-                <a href='#'>Projects</a>
+                <a href='#projects'>Projects</a>
               </li>
               <li className={styles.contact}>
-                <a href='#'>Contact</a>
+                <a href='#contact'>Contact</a>
               </li>
             </ul>
           </div>
