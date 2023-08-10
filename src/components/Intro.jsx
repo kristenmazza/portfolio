@@ -7,7 +7,7 @@ export default function Intro() {
         <img
           className={styles.profileImage}
           alt='Picture of Kristen Mazza'
-          src='/images/circle-profile.png'
+          src='/images/circle-profile-300px.png'
         />
         <div className={styles.profileDetails}>
           <h1>Kristen Mazza</h1>
