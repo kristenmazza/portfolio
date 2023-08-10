@@ -29,11 +29,11 @@ export default function Projects() {
               public API to retrieve product details. Tested the user interface
               using Vitest (a testing framework) and React Testing Library.
             </p>
-            <div className={styles.languages}>
-              <div className={styles.language}>HTML5</div>
-              <div className={styles.language}>CSS3</div>
-              <div className={styles.language}>JavaScript</div>
-              <div className={styles.language}>React</div>
+            <div className={styles.technologies}>
+              <div className={styles.technology}>HTML5</div>
+              <div className={styles.technology}>CSS3</div>
+              <div className={styles.technology}>JavaScript</div>
+              <div className={styles.technology}>React</div>
             </div>
             <div className={styles.previews}>
               <button
@@ -93,11 +93,11 @@ export default function Projects() {
               points by clicking on the cards. The objective is to accumulate as
               many points as possible without clicking the same card twice.
             </p>
-            <div className={styles.languages}>
-              <div className={styles.language}>HTML5</div>
-              <div className={styles.language}>CSS3</div>
-              <div className={styles.language}>JavaScript</div>
-              <div className={styles.language}>React</div>
+            <div className={styles.technologies}>
+              <div className={styles.technology}>HTML5</div>
+              <div className={styles.technology}>CSS3</div>
+              <div className={styles.technology}>JavaScript</div>
+              <div className={styles.technology}>React</div>
             </div>
             <div className={styles.previews}>
               <button

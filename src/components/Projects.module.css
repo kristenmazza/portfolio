@@ -77,13 +77,14 @@
   fill: rgb(250, 250, 250);
 }
 
-.languages,
+.technologies,
 .previews {
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
-.language {
+.technology {
   border: 2px solid rgb(177, 228, 171);
   padding: 5px;
   border-radius: 3px;
@@ -138,11 +139,11 @@
 
 .projectBackground {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 45px;
+  right: -2px;
   height: 100%;
-  width: 150%;
-  background: url('public/images/projects/decor-vertical.svg');
+  width: 110%;
+  background: url('public/images/projects/decor-vertical-waves-sym.svg');
   background-size: cover;
 }
 
@@ -163,10 +164,10 @@
   .projectBackground {
     position: absolute;
     top: -15px;
-    right: -1px;
+    right: -16px;
     height: 110%;
-    width: 78%;
-    background: url('public/images/projects/decor-horizontal.svg');
+    width: 75%;
+    background: url('public/images/projects/decor-horizontal-waves-sym.svg');
     background-size: cover;
   }
 
@@ -176,16 +177,9 @@
   }
 }
 
-@media (max-width: 300px) {
-  .projectImage {
-    display: none;
-  }
-
-  .projectBackground {
-    display: none;
-  }
-
+@media (max-width: 360px) {
   .projectDetails {
-    margin-top: 0%;
+    max-width: 200px;
+    margin-top: 65%;
   }
 }
