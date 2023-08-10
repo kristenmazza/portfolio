@@ -17,7 +17,7 @@ export default function Projects() {
         <div className={styles.project}>
           <img
             className={styles.projectImage}
-            src='/public/images/projects/shopping-main.png'
+            src='/images/projects/shopping-main.png'
           />
           <div className={styles.projectBackground}></div>
           <div className={styles.projectDetails}>
@@ -80,7 +80,7 @@ export default function Projects() {
         <div className={styles.project}>
           <img
             className={styles.projectImage}
-            src='/public/images/projects/unilang.png'
+            src='/images/projects/unilang.png'
           />
           <div className={styles.projectBackground}></div>
           <div className={styles.projectDetails}>
@@ -143,7 +143,7 @@ export default function Projects() {
         <div className={styles.project}>
           <img
             className={styles.projectImage}
-            src='/public/images/projects/battleship.png'
+            src='/images/projects/battleship.png'
           />
           <div className={styles.projectBackground}></div>
           <div className={styles.projectDetails}>
@@ -204,7 +204,7 @@ export default function Projects() {
         <div className={styles.project}>
           <img
             className={styles.projectImage}
-            src='/public/images/projects/etch-a-sketch.png'
+            src='/images/projects/etch-a-sketch.png'
           />
           <div className={styles.projectBackground}></div>
           <div className={styles.projectDetails}>

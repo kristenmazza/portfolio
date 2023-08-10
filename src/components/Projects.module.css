@@ -143,7 +143,7 @@
   right: -2px;
   height: 100%;
   width: 110%;
-  background: url('public/images/projects/decor-vertical-waves-sym.svg');
+  background: url('/images/projects/decor-vertical-waves-sym.svg');
   background-size: cover;
 }
 
@@ -167,7 +167,7 @@
     right: -16px;
     height: 110%;
     width: 75%;
-    background: url('public/images/projects/decor-horizontal-waves-sym.svg');
+    background: url('/images/projects/decor-horizontal-waves-sym.svg');
     background-size: cover;
   }
 

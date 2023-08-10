@@ -5,7 +5,7 @@ export default function Contact() {
     <section id='contact' className={styles.contact}>
       <div className={styles.contactContainer}>
         <div className={styles.envelope}>
-          <img src='/public/images/envelope-300px.png' />
+          <img src='/images/envelope-300px.png' />
         </div>
         <h2>Contact</h2>
         <div className={styles.contactText}>
