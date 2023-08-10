@@ -1,0 +1,191 @@
+.projects {
+  margin: 75px 0;
+  color: rgb(21, 21, 21);
+}
+
+.projectsContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.project {
+  margin: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow:
+    0 50px 100px rgba(50, 50, 93, 0.05),
+    0 15px 35px rgba(50, 50, 93, 0.1),
+    0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.projectsContainer > h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.projectDetails {
+  padding: 30px;
+  margin-top: 35%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projectDetails > h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+.projectDetails > p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.projectIcon {
+  height: 13px;
+  width: auto;
+}
+
+.demoButton > .projectIcon {
+  fill: rgb(250, 250, 250);
+}
+
+.githubIcon > .projectIcon {
+  fill: rgb(250, 250, 250);
+}
+
+.languages,
+.previews {
+  display: flex;
+  gap: 1rem;
+}
+
+.language {
+  border: 2px solid rgb(177, 228, 171);
+  padding: 5px;
+  border-radius: 3px;
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
+.githubButton,
+.demoButton {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow:
+    rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  font-weight: 400;
+  font-size: 0.9rem;
+  border: none;
+  transition: transform ease 300ms;
+}
+
+.demoButton {
+  background-color: rgb(116, 127, 224);
+  color: rgb(250, 250, 250);
+}
+
+.githubButton {
+  background-color: rgb(250, 250, 250);
+  color: rgb(21, 21, 21);
+}
+
+.githubButton:hover,
+.demoButton:hover {
+  transform: translate(0, -1px);
+  background-image: linear-gradient(rgb(255 255 255/10%) 0 0);
+  cursor: pointer;
+}
+
+.githubButton:hover {
+  color: rgb(80, 80, 80);
+}
+
+.projectImage {
+  display: block;
+  width: 101%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.projectBackground {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 150%;
+  background: url('public/images/projects/decor-vertical.svg');
+  background-size: cover;
+}
+
+@media (min-width: 700px) {
+  .project {
+    max-width: 900px;
+    flex-direction: row;
+  }
+
+  .projectImage {
+    display: block;
+    width: 85%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .projectBackground {
+    position: absolute;
+    top: -15px;
+    right: -1px;
+    height: 110%;
+    width: 78%;
+    background: url('public/images/projects/decor-horizontal.svg');
+    background-size: cover;
+  }
+
+  .projectDetails {
+    width: 50%;
+    margin-top: 0%;
+  }
+}
+
+@media (max-width: 300px) {
+  .projectImage {
+    display: none;
+  }
+
+  .projectBackground {
+    display: none;
+  }
+
+  .projectDetails {
+    margin-top: 0%;
+  }
+}

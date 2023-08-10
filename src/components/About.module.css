@@ -23,7 +23,7 @@
 
 .aboutContainer > p {
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -42,7 +42,7 @@
   color: rgb(21, 21, 21);
   margin-top: 50px;
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 15px;
   box-shadow:
     rgba(116, 127, 224, 0.3) 0px 1px 2px 0px,
     rgba(116, 127, 224, 0.15) 0px 1px 3px 1px;
