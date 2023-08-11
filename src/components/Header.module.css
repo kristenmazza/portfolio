@@ -22,7 +22,7 @@
 
 .navbarList > li > a {
   text-decoration: none;
-  color: #121212;
+  color: rgb(21, 21, 21);
 }
 
 .navbarList > li > a:hover {
@@ -64,6 +64,17 @@
     display: block;
     font-size: 25px;
     font-weight: 600;
+  }
+
+  .logo > a {
+    text-decoration: none;
+    color: rgb(21, 21, 21);
+  }
+
+  .logo > a:hover,
+  .logo > a:active,
+  .logo > a:visited {
+    color: rgb(21, 21, 21);
   }
 
   .navbarList {

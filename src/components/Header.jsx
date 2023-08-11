@@ -24,7 +24,9 @@ export default function Header() {
           }`}
         >
           <div className={styles.navbarContainer}>
-            <div className={styles.logo}>KM</div>
+            <div className={styles.logo}>
+              <a href='#'>KM</a>
+            </div>
             <ul className={styles.navbarList}>
               <li>
                 <a href='#about'>About</a>
