@@ -32,7 +32,39 @@ export default function About() {
           My toolkit primarily includes the following technologies but is always
           expanding:
         </p>
-        <div className={styles.skills}>
+
+        <div className={styles.skillsList}>
+          <div className={styles.iconGroup}>
+            <img src='/images/icons/html5-plain.svg' />
+            <span>HTML</span>
+          </div>
+          <div className={styles.iconGroup}>
+            <img src='/images/icons/css3-plain.svg' />
+            <span>CSS</span>
+          </div>
+          <div className={styles.iconGroup}>
+            <img src='/images/icons/javascript-plain.svg' />
+            <span>JavaScript</span>
+          </div>
+          <div className={styles.iconGroup}>
+            <img src='/images/icons/react-original.svg' />
+            <span>React</span>
+          </div>
+          <div className={styles.iconGroup}>
+            <img src='/images/icons/git-plain.svg' />
+            <span>Git</span>
+          </div>
+          <div className={styles.iconGroup}>
+            <img src='/images/icons/jest-plain.svg' />
+            <span>Jest</span>
+          </div>
+          <div className={styles.iconGroup}>
+            <img src='/images/icons/webpack-plain.svg' />
+            <span>Webpack</span>
+          </div>
+        </div>
+
+        {/* <div className={styles.skills}>
           <div className={styles.skillsContainer}>
             <div className={styles.skillsHeading}>
               <h3>Frontend</h3>
@@ -82,7 +114,7 @@ export default function About() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

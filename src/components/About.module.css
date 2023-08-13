@@ -10,7 +10,7 @@
 .aboutContainer {
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 60px 30px;
   align-items: center;
   gap: 10px;
   color: rgb(250, 250, 250);
@@ -34,37 +34,18 @@
   flex-direction: column;
 }
 
-.skills {
+.skillsList {
+  padding-top: 30px;
   display: flex;
-  flex-direction: column;
-  gap: 40px;
-  background-color: rgb(250, 250, 250);
-  max-width: 500px;
-  color: rgb(21, 21, 21);
-  margin-top: 50px;
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow:
-    rgba(116, 127, 224, 0.3) 0px 1px 2px 0px,
-    rgba(116, 127, 224, 0.15) 0px 1px 3px 1px;
-}
-
-.skillsHeading > h3 {
-  text-transform: uppercase;
-  font-weight: 400;
-}
-
-.skillsGroup {
-  flex: 1;
-  display: flex;
+  gap: 20px;
   flex-wrap: wrap;
-  gap: 10px;
 }
 
 .iconGroup {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 3px;
 }
 
 .iconGroup > span {
@@ -73,22 +54,8 @@
 }
 
 .iconGroup > img {
-  height: 40px;
+  height: 60px;
   width: auto;
-}
-
-.divider {
-  border-bottom: 1px solid #fff;
-  background-color: #dadada;
-  height: 1px;
-  margin: 0.5em 0px 1.5em;
-}
-
-.divider span {
-  display: block;
-  width: 50px;
-  height: 1px;
-  background-color: rgb(116, 127, 224);
 }
 
 @media (min-width: 600px) {
@@ -96,23 +63,5 @@
     max-width: 900px;
     line-height: 1.5;
     padding: 60px;
-  }
-
-  .border {
-    margin-top: 5rem;
-  }
-
-  .skills {
-    max-width: 700px;
-    padding: 30px 50px;
-  }
-
-  .skillsGroup {
-    gap: 30px;
-  }
-
-  .iconGroup > img {
-    height: 60px;
-    width: auto;
   }
 }
