@@ -5,15 +5,32 @@ export default function About() {
     <section id='about' className={styles.about}>
       <div className={styles.aboutContainer}>
         <h2>About</h2>
+
         <p>
-          I am a software engineer who embraces a user-first design philosophy.
-          My expertise revolves around creating responsive layouts using the
-          JavaScript stack, with a focus on React and NodeJS. Drawing from my
-          background as a speech-language pathologist, I excel in devising
-          solutions to intricate problems and possess effective communication
-          and collaboration skills for seamless teamwork and understanding of
-          end-users&apos; needs. My toolkit primarily includes the following
-          technologies but is always expanding:
+          Shifting gears from diagnosing communication disorders to debugging
+          code, I&#39;m rewriting my career story in an exciting transition from
+          speech-language pathologist to software engineer. My decision to
+          transition into software engineering stems from a strong desire to
+          transform ideas into functional web applications and programs that
+          improve efficiency, accessibility, and the overall user experience.
+        </p>
+        <p>
+          While working as a speech-language pathologist, I developed strong
+          analytical and problem-solving skills, honed my ability to communicate
+          effectively, and gained a deep appreciation for the impact of
+          technology on communication difficulties. Since the pandemic, I found
+          myself relying heavily on digital therapy materials and even created
+          some of my own to use with clients. In the process of creating these
+          materials, I encountered challenges that could not be solved without
+          knowing how to program. This led me to start learning to develop web
+          applications and sparked my interest in pivoting to a career in
+          software engineering. I am eager to use my skills as a software
+          engineer to solve meaningful problems and make a positive impact on
+          people&#39;s lives.
+        </p>
+        <p>
+          My toolkit primarily includes the following technologies but is always
+          expanding:
         </p>
         <div className={styles.skills}>
           <div className={styles.skillsContainer}>
