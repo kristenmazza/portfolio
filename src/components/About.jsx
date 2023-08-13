@@ -35,86 +35,34 @@ export default function About() {
 
         <div className={styles.skillsList}>
           <div className={styles.iconGroup}>
-            <img src='/images/icons/html5-plain.svg' />
+            <img alt='' src='/images/icons/html5-plain.svg' />
             <span>HTML</span>
           </div>
           <div className={styles.iconGroup}>
-            <img src='/images/icons/css3-plain.svg' />
+            <img alt='' src='/images/icons/css3-plain.svg' />
             <span>CSS</span>
           </div>
           <div className={styles.iconGroup}>
-            <img src='/images/icons/javascript-plain.svg' />
+            <img alt='' src='/images/icons/javascript-plain.svg' />
             <span>JavaScript</span>
           </div>
           <div className={styles.iconGroup}>
-            <img src='/images/icons/react-original.svg' />
+            <img alt='' src='/images/icons/react-original.svg' />
             <span>React</span>
           </div>
           <div className={styles.iconGroup}>
-            <img src='/images/icons/git-plain.svg' />
+            <img alt='' src='/images/icons/git-plain.svg' />
             <span>Git</span>
           </div>
           <div className={styles.iconGroup}>
-            <img src='/images/icons/jest-plain.svg' />
+            <img alt='' src='/images/icons/jest-plain.svg' />
             <span>Jest</span>
           </div>
           <div className={styles.iconGroup}>
-            <img src='/images/icons/webpack-plain.svg' />
+            <img alt='' src='/images/icons/webpack-plain.svg' />
             <span>Webpack</span>
           </div>
         </div>
-
-        {/* <div className={styles.skills}>
-          <div className={styles.skillsContainer}>
-            <div className={styles.skillsHeading}>
-              <h3>Frontend</h3>
-              <div className={styles.divider}>
-                <span></span>
-              </div>
-            </div>
-            <div className={styles.skillsGroup}>
-              <div className={styles.iconGroup}>
-                <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg' />
-                <span>HTML</span>
-              </div>
-              <div className={styles.iconGroup}>
-                <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg' />
-                <span>CSS</span>
-              </div>
-              <div className={styles.iconGroup}>
-                <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' />
-                <span>JavaScript</span>
-              </div>
-              <div className={styles.iconGroup}>
-                <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' />
-                <span>React</span>
-              </div>
-            </div>
-          </div>
-
-          <div className={styles.skillsContainer}>
-            <div className={styles.skillsHeading}>
-              <h3>Tools</h3>
-              <div className={styles.divider}>
-                <span></span>
-              </div>
-            </div>
-            <div className={styles.skillsGroup}>
-              <div className={styles.iconGroup}>
-                <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' />
-                <span>Git</span>
-              </div>
-              <div className={styles.iconGroup}>
-                <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg' />
-                <span>Jest</span>
-              </div>
-              <div className={styles.iconGroup}>
-                <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-plain.svg' />
-                <span>Webpack</span>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
     </section>
   );

@@ -18,6 +18,7 @@ export default function Projects() {
           <img
             className={styles.projectImage}
             src='/images/projects/shopping-main.png'
+            alt='Shopping Cart preview'
           />
           <div className={styles.projectBackground}></div>
           <div className={styles.projectDetails}>
@@ -59,7 +60,6 @@ export default function Projects() {
                 )}
               >
                 <svg
-                  alt='Visit Github profile'
                   className={styles.projectIcon}
                   width='98'
                   height='96'
@@ -81,6 +81,7 @@ export default function Projects() {
           <img
             className={styles.projectImage}
             src='/images/projects/unilang.png'
+            alt='Memory game preview'
           />
           <div className={styles.projectBackground}></div>
           <div className={styles.projectDetails}>
@@ -122,7 +123,6 @@ export default function Projects() {
                 )}
               >
                 <svg
-                  alt='Visit Github profile'
                   className={styles.projectIcon}
                   width='98'
                   height='96'
@@ -144,6 +144,7 @@ export default function Projects() {
           <img
             className={styles.projectImage}
             src='/images/projects/battleship.png'
+            alt='Battleship preview'
           />
           <div className={styles.projectBackground}></div>
           <div className={styles.projectDetails}>
@@ -183,7 +184,6 @@ export default function Projects() {
                 )}
               >
                 <svg
-                  alt='Visit Github profile'
                   className={styles.projectIcon}
                   width='98'
                   height='96'
@@ -205,6 +205,7 @@ export default function Projects() {
           <img
             className={styles.projectImage}
             src='/images/projects/etch-a-sketch.png'
+            alt='Etch-a-sketch preview'
           />
           <div className={styles.projectBackground}></div>
           <div className={styles.projectDetails}>
@@ -244,7 +245,6 @@ export default function Projects() {
                 )}
               >
                 <svg
-                  alt='Visit Github profile'
                   className={styles.projectIcon}
                   width='98'
                   height='96'
