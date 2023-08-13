@@ -8,7 +8,7 @@ export default function About() {
 
         <p>
           Shifting gears from diagnosing communication disorders to debugging
-          code, I&#39;m rewriting my career story in an exciting transition from
+          code, I&#39;m rewriting my career story in a transition from
           speech-language pathologist to software engineer. My decision to
           transition into software engineering stems from a strong desire to
           transform ideas into functional web applications and programs that
@@ -17,16 +17,16 @@ export default function About() {
         <p>
           While working as a speech-language pathologist, I developed strong
           analytical and problem-solving skills, honed my ability to communicate
-          effectively, and gained a deep appreciation for the impact of
-          technology on communication difficulties. Since the pandemic, I found
-          myself relying heavily on digital therapy materials and even created
-          some of my own to use with clients. In the process of creating these
-          materials, I encountered challenges that could not be solved without
-          knowing how to program. This led me to start learning to develop web
-          applications and sparked my interest in pivoting to a career in
-          software engineering. I am eager to use my skills as a software
-          engineer to solve meaningful problems and make a positive impact on
-          people&#39;s lives.
+          effectively, and gained a deep appreciation for harnessing technology
+          to address speech and language difficulties. Since the pandemic, I
+          found myself relying heavily on digital therapy materials and even
+          created some of my own to use with clients. In the process of creating
+          these materials, I encountered challenges that could not be solved
+          without knowing how to program. This led me to start learning to
+          develop web applications and sparked my interest in pivoting to a
+          career in software engineering. I am eager to use my skills as a
+          software engineer to solve meaningful problems and make a positive
+          impact on people&#39;s lives.
         </p>
         <p>
           My toolkit primarily includes the following technologies but is always
