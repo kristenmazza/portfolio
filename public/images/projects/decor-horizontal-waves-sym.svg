@@ -27,12 +27,12 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="true"
      inkscape:zoom="1.4789411"
-     inkscape:cx="169.37794"
+     inkscape:cx="121.03254"
      inkscape:cy="156.53091"
      inkscape:window-width="1162"
      inkscape:window-height="763"
-     inkscape:window-x="350"
-     inkscape:window-y="38"
+     inkscape:window-x="171"
+     inkscape:window-y="99"
      inkscape:window-maximized="0"
      inkscape:current-layer="g2097"
      showguides="false">
@@ -86,11 +86,11 @@
        id="path2837"
        sodipodi:nodetypes="caaaaccaaaacc" />
     <path
-       style="fill:#737ddc;fill-opacity:0.309192;stroke:none;stroke-width:0.996895;stroke-miterlimit:0.4;stroke-dasharray:none;stroke-dashoffset:11.7;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:#c2e1f5;fill-opacity:0.64999998;stroke:none;stroke-width:0.996895;stroke-miterlimit:0.4;stroke-dasharray:none;stroke-dashoffset:11.7;stroke-opacity:1;paint-order:stroke fill markers"
        d="M 38.971327,0.4625144 C 38.614289,20.744054 21.856726,39.6757 21.744765,59.86392 c -0.112412,20.269248 16.564949,41.80284 16.226562,63.5491 -0.338385,21.74625 -17.69308,43.70343 -17.580078,65.55615 0.113002,21.85272 17.693661,43.59968 17.69336,65.02924 -2.94e-4,20.92518 -16.769039,41.54787 -33.9257815,62.16409 H 55.590468 c -0.231602,-1.831 -0.385285,-3.65653 -0.365235,-5.46682 0.225665,-20.37386 17.127818,-39.37552 17.240238,-59.64475 0.11241,-20.26921 -16.56496,-41.8047 -16.22657,-63.55092 0.33838,-21.74624 17.69308,-43.70347 17.58008,-65.55616 -0.113,-21.8527 -17.69366,-43.597871 -17.69336,-65.027404 2.7e-4,-18.992793 13.81576,-37.73808 29.19532,-56.4539316 z"
        id="path7596" />
     <path
-       style="display:inline;fill:#ffffff;fill-opacity:0.988858;stroke:none;stroke-width:0.996895;stroke-miterlimit:0.4;stroke-dasharray:none;stroke-dashoffset:11.7;stroke-opacity:1;paint-order:stroke fill markers"
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.996895;stroke-miterlimit:0.4;stroke-dasharray:none;stroke-dashoffset:11.7;stroke-opacity:1;paint-order:stroke fill markers"
        d="M 71.785837,0.93420018 C 71.428799,21.215741 54.671236,40.147387 54.559275,60.335607 54.446863,80.604855 71.124224,102.13844 70.785837,123.8847 c -0.338385,21.74624 -17.69308,43.70342 -17.580078,65.55614 0.113002,21.85272 17.693661,43.59968 17.69336,65.02924 -2.94e-4,20.92518 -18.938562,53.11866 -28.863561,62.88726 l 46.36942,-0.72317 c -0.231602,-1.831 358.458602,2.42906 358.458602,2.42906 L 448.00773,0.93420018 Z"
        id="path7596-0"
        sodipodi:nodetypes="cssssccccc" />
