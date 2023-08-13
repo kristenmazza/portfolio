@@ -45,7 +45,7 @@
 }
 
 .logo:hover {
-  fill: rgb(116, 127, 224);
+  fill: rgb(63, 63, 63);
 }
 
 .contactDetails {
@@ -56,30 +56,6 @@
 
 .button {
   cursor: pointer;
-}
-
-.resumeBlock {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  color: rgb(21, 21, 21);
-  text-underline-offset: 5px;
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-decoration-color: rgb(21, 21, 21);
-}
-
-.resumeBlock:hover {
-  color: rgb(116, 127, 224);
-  text-decoration-color: rgb(116, 127, 224);
-}
-
-.resumeBlock > span {
-  font-size: 1.3rem;
-}
-
-.resumeBlock > svg {
-  height: 10px;
 }
 
 .srOnly {

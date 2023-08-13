@@ -98,7 +98,7 @@
 
 .link:hover,
 .link:active {
-  color: rgb(21, 21, 21);
+  color: rgb(223, 223, 223);
   cursor: pointer;
 }
 
@@ -121,7 +121,7 @@
 }
 
 .logo:hover {
-  fill: rgb(21, 21, 21);
+  fill: rgb(223, 223, 223);
 }
 
 .button:hover {
