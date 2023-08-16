@@ -7,26 +7,26 @@ export default function About() {
         <h2>About</h2>
 
         <p>
-          Shifting gears from diagnosing communication disorders to debugging
-          code, I&#39;m rewriting my career story in a transition from
-          speech-language pathologist to software engineer. My decision to
-          transition into software engineering stems from a strong desire to
-          transform ideas into functional web applications and programs that
-          improve efficiency, accessibility, and the overall user experience.
+          Transitioning from diagnosing communication disorders to debugging
+          code, I am a speech-language pathologist turned software engineer.
+          With my professional training and background in speech-language
+          pathology, I bring increased empathy, attention to detail, critical
+          thinking, collaboration, and communication skills. I am passionate
+          about making delightful, accessible user experiences for people to
+          consume.
         </p>
         <p>
-          While working as a speech-language pathologist, I developed strong
-          analytical and problem-solving skills, honed my ability to communicate
-          effectively, and gained a deep appreciation for harnessing technology
-          to address speech and language difficulties. Since the pandemic, I
-          found myself relying heavily on digital therapy materials and even
-          created some of my own to use with clients. In the process of creating
-          these materials, I encountered challenges that could not be solved
-          without knowing how to program. This led me to start learning to
-          develop web applications and sparked my interest in pivoting to a
-          career in software engineering. I am eager to use my skills as a
-          software engineer to solve meaningful problems and make a positive
-          impact on people&#39;s lives.
+          My interest in software engineering was ignited during the pandemic,
+          when speech therapy services moved online. I found myself relying
+          heavily on the limited digital therapy materials available and began
+          creating some of my own to fill in the gaps. While creating materials,
+          I encountered problems that could not be solved without knowing how to
+          program. To overcome this, I started learning to develop web
+          applications. The more I learned, the more I fell in love with the
+          different elements of software engineering, especially solving
+          meaningful problems and bringing ideas to life. Thus, I decided to
+          pivot to a career in software engineering in order to leverage
+          technology to make a difference in people’s lives.
         </p>
         <p>
           My toolkit primarily includes the following technologies but is always
