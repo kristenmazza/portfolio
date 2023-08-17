@@ -18,10 +18,10 @@ export default function About() {
           unique approach, and it reinforces my interest in creating
           user-friendly web applications that everyone can use. My interest in
           software engineering was ignited during the pandemic when speech
-          therapy services moved online. I relied heavily on minimal digital
-          materials and created more to fill the gaps. However, I was limited by
-          not knowing how to code when making these materials. So, I learned to
-          code!
+          therapy services moved online. I relied heavily on the minimal
+          existing digital materials and created more to fill the gaps. However,
+          I was limited by not knowing how to code when making these materials.
+          So, I learned to code!
         </p>
         <p>
           While learning to code and working through a self-paced curriculum, I
