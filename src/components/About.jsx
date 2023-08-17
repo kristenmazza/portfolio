@@ -5,32 +5,30 @@ export default function About() {
     <section id='about' className={styles.about}>
       <div className={styles.aboutContainer}>
         <h2>About</h2>
-
         <p>
-          Transitioning from diagnosing communication disorders to debugging
-          code, I am a speech-language pathologist turned software engineer.
-          With my professional training and background in speech-language
-          pathology, I bring increased empathy, attention to detail, critical
-          thinking, collaboration, and communication skills. I am passionate
-          about making delightful, accessible user experiences for people to
-          consume.
+          I’m a software engineer who is excited to create accessible websites
+          and solve meaningful problems. I have built more than a dozen
+          independent projects in the past year, and with each new project, I
+          expanded my toolkit with fresh skills. Some of the projects I’m most
+          proud of are Battleship and a memory game called Uni Lang because I
+          became comfortable with React and unit testing while developing them.
         </p>
         <p>
-          My interest in software engineering was ignited during the pandemic,
-          when speech therapy services moved online. I found myself relying
-          heavily on the limited digital therapy materials available and began
-          creating some of my own to fill in the gaps. While creating materials,
-          I encountered problems that could not be solved without knowing how to
-          program. To overcome this, I started learning to develop web
-          applications. The more I learned, the more I fell in love with the
-          different elements of software engineering, especially solving
-          meaningful problems and bringing ideas to life. Thus, I decided to
-          pivot to a career in software engineering in order to leverage
-          technology to make a difference in people’s lives.
+          My past experience as a speech-language pathologist provides me with a
+          unique approach, and it reinforces my interest in creating
+          user-friendly web applications that everyone can use. My interest in
+          software engineering was ignited during the pandemic when speech
+          therapy services moved online. I relied heavily on minimal digital
+          materials and created more to fill the gaps. However, I was limited by
+          not knowing how to code when making these materials. So, I learned to
+          code!
         </p>
         <p>
-          My toolkit primarily includes the following technologies but is always
-          expanding:
+          While learning to code and working through a self-paced curriculum, I
+          joined a local Meetup group called Ventura Code and Coffee to connect
+          with other developers, and I currently serve as an organizer. I look
+          forward to continuing to broaden and deepen my skills alongside other
+          great developers.
         </p>
 
         <div className={styles.skillsList}>
