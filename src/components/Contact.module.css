@@ -43,33 +43,33 @@
   margin: 2rem 0;
   background-image: linear-gradient(
     left,
-    rgb(116, 127, 224) 2%,
+    rgb(95, 107, 196) 2%,
     rgb(195, 199, 232) 50%,
-    rgb(116, 127, 224) 98%
+    rgb(195, 107, 196) 98%
   );
   background-image: -o-linear-gradient(
     left,
-    rgb(116, 127, 224) 2%,
+    rgb(95, 107, 196) 2%,
     rgb(195, 199, 232) 50%,
-    rgb(116, 127, 224) 98%
+    rgb(95, 107, 196) 98%
   );
   background-image: -moz-linear-gradient(
     left,
-    rgb(116, 127, 224) 2%,
+    rgb(95, 107, 196) 2%,
     rgb(195, 199, 232) 50%,
-    rgb(116, 127, 224) 98%
+    rgb(95, 107, 196) 98%
   );
   background-image: -webkit-linear-gradient(
     left,
-    rgb(116, 127, 224) 2%,
+    rgb(95, 107, 196) 2%,
     rgb(195, 199, 232) 50%,
-    rgb(116, 127, 224) 98%
+    rgb(95, 107, 196) 98%
   );
   background-image: -ms-linear-gradient(
     left,
-    rgb(116, 127, 224) rgb(116, 127, 224) 2%,
+    rgb(95, 107, 196) rgb(95, 107, 196) 2%,
     rgb(195, 199, 232) 50%,
-    rgb(116, 127, 224) 98%
+    rgb(95, 107, 196) 98%
   );
 }
 
