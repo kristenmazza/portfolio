@@ -18,9 +18,5 @@
 html {
   scroll-behavior: smooth;
   scroll-padding: 2.3rem;
+  -webkit-font-smoothing: auto !important;
 }
-
-/* body {
-  height: 200vh;
-  background-color: #fdfdfd;
-} */
