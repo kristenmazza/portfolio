@@ -1,14 +1,28 @@
+import { useState } from 'react';
 import styles from './Intro.module.css';
 
 export default function Intro() {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  const handleImageLoad = () => {
+    setImageLoaded(true);
+  };
+
   return (
     <section className={styles.intro}>
       <div className={styles.introContainer}>
-        <img
-          className={styles.profileImage}
-          alt='Picture of Kristen Mazza'
-          src='/images/circle-profile-300px.png'
-        />
+        <div
+          className={`${styles.profileImagePlaceholder} ${
+            imageLoaded ? styles.imageLoaded : ''
+          }`}
+        >
+          <img
+            className={styles.profileImage}
+            alt='Picture of Kristen Mazza'
+            src='/images/circle-profile-300px.png'
+            onLoad={handleImageLoad}
+          />
+        </div>
         <div className={styles.profileDetails}>
           <h1>Kristen Mazza</h1>
           <p>Software Engineer</p>

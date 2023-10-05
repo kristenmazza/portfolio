@@ -14,17 +14,34 @@
 
 .profileImage {
   height: 200px;
+  width: auto;
   border-radius: 50%;
   border: 3px solid rgb(235, 237, 244);
   background-color: rgb(235, 237, 244);
   user-select: none;
   -webkit-user-select: none;
+  display: none;
+}
+
+.profileImagePlaceholder {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(235, 237, 244);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .profileDetails {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.imageLoaded .profileImage {
+  display: block;
 }
 
 .profileDetails > h1 {
@@ -56,18 +73,6 @@
 
 .button:hover {
   cursor: pointer;
-}
-
-.srOnly {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
 }
 
 .srOnly {
