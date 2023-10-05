@@ -14,6 +14,7 @@
   align-items: center;
   gap: 10px;
   color: rgb(250, 250, 250);
+  box-sizing: content-box !important;
 }
 
 .aboutContainer > h2 {
@@ -61,7 +62,7 @@
 @media (min-width: 600px) {
   .aboutContainer {
     max-width: 900px;
-    line-height: 1.5;
+    line-height: 1.4;
     padding: 60px;
   }
 }
