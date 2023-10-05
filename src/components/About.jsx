@@ -60,6 +60,18 @@ export default function About() {
             <img alt='' src='/images/icons/webpack-plain.svg' />
             <span>Webpack</span>
           </div>
+          <div className={styles.iconGroup}>
+            <img alt='' src='/images/icons/nodejs-plain.svg' />
+            <span>Node.js</span>
+          </div>
+          <div className={styles.iconGroup}>
+            <img alt='' src='/images/icons/express-original.svg' />
+            <span>Express</span>
+          </div>
+          <div className={styles.iconGroup}>
+            <img alt='' src='/images/icons/mongodb-plain.svg' />
+            <span>MongoDB</span>
+          </div>
         </div>
       </div>
     </section>
