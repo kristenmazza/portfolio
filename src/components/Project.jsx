@@ -9,6 +9,7 @@ export default function Project({
   projectTechnologies,
   urlLive,
   urlSource,
+  urlReadMore,
 }) {
   const openInNewTab = (url) => {
     const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
@@ -31,7 +32,19 @@ export default function Project({
       <div className={styles.projectBackground}></div>
       <div className={styles.projectDetails}>
         <h3>{projectName}</h3>
-        <p>{projectDescription}</p>
+        <p>
+          <span className={styles.projectDescription}>
+            {projectDescription}
+          </span>
+          {urlReadMore ? (
+            <span className={styles.readMore}>
+              &nbsp;
+              <a href={urlReadMore}>Read more...</a>
+            </span>
+          ) : (
+            ''
+          )}
+        </p>
         <div className={styles.technologies}>{technologies}</div>
         <div className={styles.previews}>
           <button className={styles.demoButton} onClick={onClickUrl(urlLive)}>
@@ -75,7 +88,8 @@ Project.propTypes = {
   alt: PropTypes.string,
   projectName: PropTypes.string,
   projectDescription: PropTypes.string,
-  projectTechnologies: PropTypes.arr,
+  projectTechnologies: PropTypes.array,
   urlLive: PropTypes.string,
   urlSource: PropTypes.string,
+  urlReadMore: PropTypes.string,
 };

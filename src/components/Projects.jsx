@@ -23,7 +23,10 @@ export default function Projects() {
             'MongoDB',
           ]}
           urlLive={'https://blog.kristenmazza.dev'}
-          urlSource={'https://github.com/kristenmazza/blog-client'}
+          urlSource={'https://github.com/kristenmazza/blog-api'}
+          urlReadMore={
+            'https://blog.kristenmazza.dev/posts/from-concept-to-content-building-a-blog-from-scratch'
+          }
         />
 
         <Project
