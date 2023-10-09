@@ -7,7 +7,7 @@ export default function Projects() {
       <div className={styles.projectsContainer}>
         <h2>Projects</h2>
         <Project
-          image={'/images/projects/blog.png'}
+          image={'/images/projects/blog-cms.png'}
           alt={'Blog preview'}
           projectName={'Blog'}
           projectDescription={
