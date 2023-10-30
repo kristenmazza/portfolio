@@ -7,6 +7,30 @@ export default function Projects() {
       <div className={styles.projectsContainer}>
         <h2>Projects</h2>
         <Project
+          image={'/images/projects/speech-sound-sleuth.jpg'}
+          alt={'Speech Sound Sleuth preview'}
+          projectName={'Speech Sound Sleuth'}
+          projectDescription={`Speech therapy game inspired by "Where's Waldo?" Players search for items tied to speech sounds in timed challenges. When an item is found, the timer stops for pronunciation practice. Backend tested using Supertest and MongoDB Memory Server.`}
+          projectTechnologies={[
+            'HTML5',
+            'CSS3',
+            'JavaScript',
+            'React',
+            'TypeScript',
+            'Node.js',
+            'Express',
+            'MongoDB',
+          ]}
+          urlLive={'https://speech-sound-sleuth.netlify.app/'}
+          urlSource={
+            'https://github.com/kristenmazza/speech-sound-sleuth-backend'
+          }
+          urlReadMore={
+            'https://blog.kristenmazza.dev/posts/creating-speech-sound-sleuth-an-engaging-speech-articulation-game'
+          }
+        />
+
+        <Project
           image={'/images/projects/blog-cms.png'}
           alt={'Blog preview'}
           projectName={'Blog'}
