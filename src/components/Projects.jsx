@@ -7,7 +7,7 @@ export default function Projects() {
       <div className={styles.projectsContainer}>
         <h2>Projects</h2>
         <Project
-          image={'/images/projects/speech-sound-sleuth.jpg'}
+          image={'/images/projects/speech-sound-sleuth-pv.jpg'}
           alt={'Speech Sound Sleuth preview'}
           projectName={'Speech Sound Sleuth'}
           projectDescription={`Speech therapy game inspired by "Where's Waldo?" Players search for items tied to speech sounds in timed challenges. When an item is found, the timer stops for pronunciation practice. Backend tested using Supertest and MongoDB Memory Server.`}
