@@ -75,7 +75,10 @@ export default function Contact() {
           </a>
         </div>
         <div className={styles.divider}></div>
-        <p className={styles.copyright}> © 2023 Kristen Mazza</p>
+        <p className={styles.copyright}>
+          {' '}
+          © {new Date().getFullYear()} Kristen Mazza
+        </p>
       </div>
     </section>
   );
