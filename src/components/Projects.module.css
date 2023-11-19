@@ -198,3 +198,53 @@
     margin-top: 65%;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .projectBackground {
+    position: absolute;
+    top: 45px;
+    right: -2px;
+    height: 100%;
+    width: 110%;
+    background: url('/images/projects/decor-vertical-waves-sym-dark.png');
+    background-size: cover;
+  }
+
+  .projectImage {
+    filter: brightness(50%);
+  }
+
+  .demoButton {
+    background-color: rgb(43, 48, 88);
+  }
+
+  .githubButton {
+    background-color: rgb(44, 43, 43);
+    color: rgb(21, 21, 21);
+  }
+
+  .githubButton:hover,
+  .demoButton:hover {
+    color: rgb(80, 80, 80);
+  }
+
+  .srOnly {
+    color: #ffffff;
+  }
+
+  .technology {
+    border: 2px solid rgb(69, 102, 64);
+  }
+}
+
+@media (min-width: 700px) and (prefers-color-scheme: dark) {
+  .projectBackground {
+    position: absolute;
+    top: -15px;
+    right: -16px;
+    height: 110%;
+    width: 75%;
+    background: url('/images/projects/decor-horizontal-waves-sym-dark.png');
+    background-size: cover;
+  }
+}

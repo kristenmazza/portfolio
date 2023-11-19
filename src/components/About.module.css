@@ -66,3 +66,9 @@
     padding: 60px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .about {
+    background-color: rgb(32, 36, 73);
+  }
+}
