@@ -100,3 +100,29 @@
     align-items: flex-start;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .intro {
+    color: rgb(230, 230, 230);
+  }
+
+  .logo {
+    padding-top: 10px;
+    height: 38px;
+    width: auto;
+    fill: rgb(230, 230, 230);
+  }
+
+  .logo:hover {
+    fill: rgb(206, 204, 204);
+  }
+
+  .profileImage {
+    border: 3px solid rgb(33, 35, 48);
+    background-color: rgb(33, 35, 48);
+  }
+
+  .profileImagePlaceholder {
+    background-color: rgb(33, 35, 48);
+  }
+}

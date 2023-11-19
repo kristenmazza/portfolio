@@ -16,6 +16,7 @@ import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 import { styled } from '@mui/material/styles';
+import styles from './Header.module.css';
 
 const drawerWidth = 240;
 
@@ -56,9 +57,14 @@ function DrawerAppBar(props) {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+    <Box
+      onClick={handleDrawerToggle}
+      sx={{ textAlign: 'center' }}
+      className={styles.drawer}
+    >
       <Typography variant='h6' sx={{ my: 2 }}>
         <Link
+          className={styles.logo}
           href='/'
           underline='none'
           sx={{
@@ -76,32 +82,39 @@ function DrawerAppBar(props) {
       <Divider />
       <List>
         <ListItem disablePadding sx={{ justifyContent: 'center' }}>
-          <NavButton href='#about'>
+          <NavButton className={styles.sideLink} href='#about'>
             <ListItemText
+              className={styles.link}
               primaryTypographyProps={{ fontSize: '20px', fontWeight: '300' }}
               primary='About'
             />
           </NavButton>
         </ListItem>
         <ListItem disablePadding sx={{ justifyContent: 'center' }}>
-          <NavButton href='#projects'>
+          <NavButton className={styles.sideLink} href='#projects'>
             <ListItemText
+              className={styles.link}
               primaryTypographyProps={{ fontSize: '20px', fontWeight: '300' }}
               primary='Projects'
             />
           </NavButton>
         </ListItem>
         <ListItem disablePadding sx={{ justifyContent: 'center' }}>
-          <NavButton href='https://blog.kristenmazza.dev/'>
+          <NavButton
+            className={styles.sideLink}
+            href='https://blog.kristenmazza.dev/'
+          >
             <ListItemText
+              className={styles.link}
               primaryTypographyProps={{ fontSize: '20px', fontWeight: '300' }}
               primary='Blog'
             />
           </NavButton>
         </ListItem>
         <ListItem disablePadding sx={{ justifyContent: 'center' }}>
-          <NavButton href={'#contact'}>
+          <NavButton className={styles.sideLink} href={'#contact'}>
             <ListItemText
+              className={styles.link}
               primaryTypographyProps={{ fontSize: '20px', fontWeight: '300' }}
               primary='Contact'
             />
@@ -118,6 +131,7 @@ function DrawerAppBar(props) {
     <>
       <CssBaseline />
       <AppBar
+        className={styles.appBar}
         component='nav'
         elevation={0}
         sx={{
@@ -130,6 +144,7 @@ function DrawerAppBar(props) {
         <Container maxWidth='lg'>
           <Toolbar>
             <IconButton
+              className={styles.icon}
               color='inherit'
               aria-label='open drawer'
               edge='start'
@@ -155,6 +170,7 @@ function DrawerAppBar(props) {
               }}
             >
               <Link
+                className={styles.logo}
                 href='/'
                 underline='none'
                 sx={{
@@ -175,10 +191,21 @@ function DrawerAppBar(props) {
                 display: { xs: 'none', sm: 'block' },
               }}
             >
-              <NavLink href='#about'>About</NavLink>
-              <NavLink href='#projects'>Projects</NavLink>
-              <NavLink href='https://blog.kristenmazza.dev'>Blog</NavLink>
-              <NavLink href='#contact'>Contact</NavLink>
+              <NavLink className={styles.link} href='#about'>
+                About
+              </NavLink>
+              <NavLink className={styles.link} href='#projects'>
+                Projects
+              </NavLink>
+              <NavLink
+                className={styles.link}
+                href='https://blog.kristenmazza.dev'
+              >
+                Blog
+              </NavLink>
+              <NavLink className={styles.link} href='#contact'>
+                Contact
+              </NavLink>
             </Box>
           </Toolbar>
         </Container>
@@ -186,6 +213,7 @@ function DrawerAppBar(props) {
 
       <nav>
         <Drawer
+          classes={{ paper: styles.drawerContainer }}
           container={container}
           variant='temporary'
           open={mobileOpen}

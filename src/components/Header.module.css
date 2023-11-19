@@ -1,0 +1,33 @@
+@media (prefers-color-scheme: dark) {
+  .appBar {
+    color: rgb(230, 230, 230);
+    background-color: rgb(18, 18, 18);
+    border-bottom: 1px solid rgb(42, 41, 41);
+  }
+
+  .icon,
+  .logo,
+  .link,
+  .sideLink {
+    color: rgb(230, 230, 230);
+  }
+
+  .logo:hover,
+  .link:hover {
+    color: rgb(230, 230, 230);
+  }
+
+  .sideLink:hover {
+    background-color: rgb(33, 35, 48);
+  }
+
+  .icon:hover {
+    background-color: rgb(33, 35, 48);
+  }
+
+  .drawer,
+  .drawerContainer {
+    background-color: rgb(18, 18, 18);
+    color: rgb(230, 230, 230);
+  }
+}
