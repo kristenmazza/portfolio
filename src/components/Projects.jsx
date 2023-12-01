@@ -14,7 +14,6 @@ export default function Projects() {
           projectTechnologies={[
             'HTML5',
             'CSS3',
-            'JavaScript',
             'React',
             'TypeScript',
             'Node.js',
